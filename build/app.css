@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #333;
+  background-color: #fefffe;
+}
+.crazy-grid {
+  margin: 0 auto;
+}
+.crazy-grid td {
+  width: 120px;
+  min-width: 120px;
+  max-width: 120px;
+  height: 1.5em;
+}
+.crazy-grid td i.fa {
+  margin-left: 6px;
+}
+.time-list {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  text-align: right;
+}
+.stop-button {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+.stop-button .fa {
+  margin-right: 0.2em;
+}

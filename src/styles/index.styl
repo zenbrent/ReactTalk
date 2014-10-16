@@ -1,0 +1,31 @@
+global-reset()
+*
+  box-sizing border-box
+
+body
+  color #333333
+  background-color #fefffe
+
+.crazy-grid
+  margin 0 auto
+  td
+    width 120px
+    min-width @width
+    max-width @width
+    height 1.5em
+    i.fa
+      margin-left 6px
+
+.time-list
+  position fixed
+  right 10px
+  top 10px
+  text-align right
+
+.stop-button
+  position fixed
+  top 0
+  left 0
+  padding 10px
+  .fa
+    margin-right .2em

@@ -1,0 +1,32 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "Trying different templating engines for work.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "browserify": "^6.0.3",
+    "coffee-script": "^1.8.0",
+    "coffeeify": "^0.7.0",
+    "gulp": "^3.8.8",
+    "gulp-autowatch": "0.0.1",
+    "gulp-concat": "^2.4.1",
+    "gulp-dust": "^1.0.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-stylus": "^1.3.3",
+    "gulp-util": "^3.0.1",
+    "is-array": "^1.0.1",
+    "jquery": "^2.1.1",
+    "lodash": "^2.4.1",
+    "nib": "^1.0.4",
+    "react": "^0.11.2",
+    "react-tools": "^0.11.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.0.0"
+  },
+  "author": "Brent Brimhall <brent.brimhall@gmail.com>",
+  "license": "wtfpl"
+}
